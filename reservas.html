@@ -18,12 +18,56 @@
             <input type="text">
             <br>
             <br>
-            Género
-            
+        <p>
+            <label for="hombre">Hombre:</label>
+            <input type="radio" value="H"
+            checked id="hombre" name="genero">
+
+            <label for="mujer">Mujer:</label>
+            <input type="radio" value="M"
+            id="mujer" name="genero">
+        </p>
+        <p>
+            <label for="fumador">Fumador:</label>
+            <input type="checkbox" name="fuma"
+            id="fumador">
+        </p>
+    <p>
+        <label for="prov">Provincia:</label>
+        <select
+        name="prov" id="prov">
+        <option value="cr" selected>Ciudad Real</option>
+        <option value="ab">Albacete</option>
+        <option value="gu">Guadalajara</option>
+        <option value="co">Cuenca</option>
+        <option value="to">Toledo</option>
+        </select>
+        <p>
+            <label for="obs">Observaciones:</label>
+            <textarea name="obs"
+            cols="10" rows="6"
+            id="obs">
+            Escriba algo...
+            </textarea>
+        </p>
+        <p>
+            <label for="fecha-nac">Fecha de nacimiento:</label>
+            <input type="date" name="fecha-nac"
+            id="fecha-nac">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="number" name="email"
+            id="email">
+        </p>
+    <!--Botones de envío y reset-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
             <br>
             <br>
-            Fecha de nacimiento:
-            <input type="date" name="fecha_nac">
+            <button><a href="index.html">Volver</a></button>
+        </p>
         </fieldset>
     </form>
 </body>
